@@ -1,5 +1,5 @@
 //const fetch = require("node-fetch");
-import fetch from 'node-fetch';
+const fetch = require('node-fetch').default;
 
 const slackURL = process.env.SLACK_WEBHOOK_URL;
 
